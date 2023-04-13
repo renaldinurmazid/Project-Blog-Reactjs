@@ -1,0 +1,13 @@
+.home-footer p {
+  text-align: center;
+  margin: 2rem;
+  font-size: small;
+  margin-bottom: 0;
+  color: var(--font-color);
+}
+@media (max-width: 600px) {
+  .home-footer p{
+    text-align: center;
+    font-size:x-small;
+  }
+  }

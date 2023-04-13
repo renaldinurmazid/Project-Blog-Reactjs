@@ -1,0 +1,17 @@
+.home-header h3 {
+  text-align: left;
+  color: var(--font-color);
+}
+.darkmode {
+  display: flex;
+  justify-content: right;
+}
+
+@media (max-width: 600px) {
+  .home-header h3 {
+    text-align: center;
+  }
+  .darkmode{
+    justify-content: center;
+  }
+  }
